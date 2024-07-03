@@ -14,7 +14,7 @@ main ：基于Android 14平台开发
 1. 下载代码放到android源码目录下
 2. 执行mm编译获得可执行档 FpsMonitor
 3. adb push FpsMonitor /data/local/tmp/
-4. 执行adb shell am stack list获取要监测的应用的 taskId
+4. 执行 adb shell am stack list 获取要监测的应用的 taskId
 5. adb shell /data/local/tmp/FpsMonitor -t taskId 运行程序
 
 ![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/3f43092e-5672-49d6-a2f4-09f911f15545)
