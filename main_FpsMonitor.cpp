@@ -92,8 +92,8 @@ void parseOptions(int argc, char **argv) {
         exit(0);
     }
     int res;
-    while((res = getopt(argc, argv, "t:m:")) >= 0) {
-        switch(res) {
+    while((res = getopt(argc, argv, "t:m:h")) >= 0) {
+        switch(res) {                
             case 't':
                 mTaskId = atoi(optarg);
                 break;
