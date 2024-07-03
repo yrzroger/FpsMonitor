@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 二的次方
  */
 
 #define LOG_TAG "FpsMonitor"
