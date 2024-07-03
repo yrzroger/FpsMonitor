@@ -17,5 +17,12 @@ main ：基于Android 14平台开发
 4. 执行adb shell am stack list获取要监测的应用的 taskId
 5. adb shell /data/local/tmp/FpsMonitor -t taskId 运行程序
 
+![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/3f43092e-5672-49d6-a2f4-09f911f15545)
+
 
 #### 结果展示
+在console log中打印出实时的FPS
+![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/1fd5b421-59bf-45fd-8710-610955deddef)
+
+在屏幕左上角展示当前的屏幕的刷新率和图层渲染送显的帧率
+![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/acdd16bf-ac93-4e60-b584-bb9bf5dd6d99)
