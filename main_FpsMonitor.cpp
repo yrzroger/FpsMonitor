@@ -78,7 +78,7 @@ static void usage(const char *me)
     fprintf(stderr, "\nusage: \t%s [options]\n"
                     "\t--------------------------------------- options ------------------------------------------------\n"
                     "\t[-h] help\n"
-                    "\t[-d] task id of app that you want to observe \n"
+                    "\t[-t] task id of app that you want to observe \n"
                     "\t[-m] 1: only print log, 2: only show ui, default: print log and show ui \n"
                     "\t------------------------------------------------------------------------------------------------\n",
                     me);
@@ -92,9 +92,9 @@ void parseOptions(int argc, char **argv) {
         exit(0);
     }
     int res;
-    while((res = getopt(argc, argv, "d:m:")) >= 0) {
+    while((res = getopt(argc, argv, "t:m:")) >= 0) {
         switch(res) {
-            case 'd':
+            case 't':
                 mTaskId = atoi(optarg);
                 break;
             case 'm':
