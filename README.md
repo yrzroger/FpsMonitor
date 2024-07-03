@@ -16,6 +16,7 @@ main ：基于Android 14平台开发
 3. adb push FpsMonitor /data/local/tmp/
 4. 执行 adb shell am stack list 获取要监测的应用的 taskId
 5. adb shell /data/local/tmp/FpsMonitor -t taskId 运行程序
+6. 输入‘q’ 或者 Ctrl+C 退出监测
 
 ![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/3f43092e-5672-49d6-a2f4-09f911f15545)
 
