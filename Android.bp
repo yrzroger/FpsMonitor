@@ -1,0 +1,42 @@
+cc_defaults {
+    name: "FpsMonitor_defaults",
+
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wunused",
+        "-Wunreachable-code",
+    ],
+
+    shared_libs: [
+        "libbase",
+        "libbinder",
+        "libcutils",
+        "liblog",
+        "libutils",
+        "libui",
+        "libgui",
+        "libEGL",
+        "libGLESv1_CM",
+    ],
+}
+
+// FpsMonitor executable
+// =========================================================
+
+cc_binary {
+    name: "FpsMonitor",
+    defaults: [
+        "FpsMonitor_defaults",
+        "librenderengine_deps",
+    ],
+    srcs: [
+        "main_FpsMonitor.cpp",
+        "RefreshRateOverlay.cpp",
+    ],
+
+    cflags: [
+        "-Wno-deprecated-declarations",
+    ],
+}
+
