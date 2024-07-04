@@ -23,7 +23,7 @@ main ：基于Android 14平台开发
 
 #### 结果展示
 在console log中打印出实时的FPS
-![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/f70058a0-2758-4fd6-a724-bc918bf11839)
+![image](https://github.com/yrzroger/FpsMonitor/assets/18068017/916c013c-e739-4b40-8ec2-789d64a927af)
 
 
 在屏幕左上角展示当前的屏幕的刷新率和图层渲染送显的帧率
