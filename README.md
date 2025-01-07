@@ -3,7 +3,6 @@
 
 #### 详细说明
 参见文章：关注公众号 "Android元宇宙"，图形图像专栏获取更多内容
-![图片](https://github.com/yrzroger/NativeSFDemo/assets/18068017/e4ddc7ce-cb94-4029-847c-cdabaa5f5dcd)
 
 
 #### 分支
